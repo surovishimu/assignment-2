@@ -70,6 +70,7 @@
     height: 56px;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
+    
 }
 
 .bg-menue {
@@ -81,6 +82,7 @@
     height: 56px;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
+    margin-left: 30px;
 }
 
 .bg-title {
@@ -159,9 +161,9 @@
     color: white;
     display: inline-flex;
     padding: 15px 40px;
-  margin-right: 10px;
-  cursor: pointer;
-    
+    margin-right: 10px;
+    cursor: pointer;
+
 }
 
 .banner-btn-2 {
@@ -172,7 +174,79 @@
     display: inline-flex;
     padding: 15px 40px;
     cursor: pointer;
-   
+
 }
 
 /*  end banner design*/
+
+/* start our purpose design */
+.purpose-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    
+}
+
+.purpose-img {
+    width: 50%;
+}
+
+.purpose-photo {
+    width: 550px;
+    margin-left: 100px;
+}
+
+.purpose-info {
+    width: 50%;
+    margin-right: 100px;
+}
+
+.purpose-title {
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.purpose-txt {
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 600px;
+    margin-left:100px ;
+    
+}
+.purpose-btn{
+    border-radius: 48px;
+    background: #FF42A5;
+    border: none;
+    color: white;
+    display: inline-flex;
+    padding: 15px 40px;
+    margin-right: 10px;
+    cursor: pointer;
+    position: relative;
+    left: 420px;
+    
+}
+
+.moto{
+color: #534C64;
+text-align: right;
+font-size: 16px;
+position: relative;
+top:5px;
+}
+.small-letter{
+    font-weight: 800px;
+    font-size: 20px;
+}
+
+
+/* end our purpose design */
