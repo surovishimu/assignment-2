@@ -1,0 +1,81 @@
+/* work-sans font from google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,800;1,300;1,700&family=Work+Sans:wght@300;400;600;700;800&display=swap');
+
+/* shared styles */
+
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* start nav bar style */
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+   height: 100px;
+}
+.nav-title {
+    display: flex;
+    gap: 9px;
+    align-items: center;
+}
+.game-logo {
+    font-size: 45px;
+    font-weight: 700;
+}
+.letter-G {
+    color: #FF42A5;
+}
+.nav-title-img {
+    width: 86.041px;
+    height: 40px;
+}
+.nav-menue {
+    display: flex;
+    align-items: center;
+}
+.nav-menue>ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-menue ul>li {
+    list-style: none;
+}
+.nav-menue li a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 400;
+}
+.menue-img {
+    width: 25.916px;
+    height: 24px;
+}
+.inner-list>li {
+    width: 262px;
+    height: 56px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+.bg-menue {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 262px;
+    height: 56px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+.bg-title {
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* end nav bar style */
