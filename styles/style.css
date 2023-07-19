@@ -181,75 +181,29 @@ body {
 
 /* start our purpose design */
 .purpose-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100vw;
-    height: 500px;
+    padding: 10px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-    text-align: right;
-
+    margin: 50px auto 0;
+    max-width: 1400px;
+    min-height: 50px;
+    display: flex;
 }
 
 .purpose-img {
-    width: 100vw;
-    margin-right: 200px;
+    width: 50%;
 }
 
 .purpose-photo {
-    width: 650px;
-    margin-left: 100px;
-}
-
-.purpose-info {
-    width: 50vw;
-    margin-right: 100px;
-}
-
-.purpose-title {
-    font-size: 48px;
-    font-weight: 700;
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-
-}
-.purpose-txt {
-    color: #534C64;
-    font-size: 18px;
-    font-weight: 400;
-   
-
-}
-.purpose-btn {
-    border-radius: 48px;
-    background: #FF42A5;
-    border: none;
-    color: white;
-    padding: 15px 40px;
-    margin-right: 10px;
-    cursor: pointer;
-    width: 170px;
-}
-
-/* .purpose-img {
-    width: 400px;
-    margin-right: 200px;
-}
-
-.purpose-photo {
-    width: 650px;
-    margin-left: 100px;
+    width: 100%;
+    object-fit: cover;
 }
 
 .purpose-info {
     width: 50%;
-    margin-right: 100px;
+    text-align: right;
 }
 
 .purpose-title {
-    text-align: right;
     font-size: 48px;
     font-weight: 700;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -261,12 +215,8 @@ body {
 
 .purpose-txt {
     color: #534C64;
-    text-align: right;
     font-size: 18px;
     font-weight: 400;
-    max-width: 600px;
-    margin-left: 150px;
-
 }
 
 .purpose-btn {
@@ -274,28 +224,23 @@ body {
     background: #FF42A5;
     border: none;
     color: white;
-    display: inline-flex;
     padding: 15px 40px;
     margin-right: 10px;
     cursor: pointer;
-
     width: 170px;
-
-
 }
 
 .moto {
     color: #534C64;
-    text-align: right;
     font-size: 16px;
     margin-right: 10px;
-    position: absolute;
+
 }
 
 .small-letter {
     font-weight: 800px;
     font-size: 20px;
-} */
+}
 
 /* end our purpose design */
 
@@ -332,13 +277,15 @@ body {
     justify-content: center;
     align-items: center;
     margin-right: 50px;
-    margin-left: 50px;
+    margin-left: 70px;
     text-align: center;
     gap: 20px;
 }
 
 .card-txt {
-    width: 240px;
+    width: 230px;
+    margin-left: -15px;
+
 
 }
 
@@ -348,12 +295,12 @@ body {
 }
 
 .card {
-    width: 250px;
+    width: 200px;
     position: relative;
 }
 
 .card-img {
-    width: 250px;
+    width: 200px;
 
 }
 
@@ -394,31 +341,33 @@ body {
 
 .anniversary-container {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
     margin-top: 50px;
+    margin: 50px auto 0;
+    max-width: 1400px;
+    min-height: 50px;
+
+
 }
 
 .anniversary-img {
-    width: 60%;
+    width: 50%;
 }
 
 .anniversary-photo {
-    height: 450px;
-    margin-left: 200px;
+    width: 100%;
+    object-fit: cover;
 }
 
 .anniversary-content {
-    width: 40%;
-    margin-left: 150px;
-    margin-top: -150px;
+    width: 50%;
+    text-align: left;
+    margin-top: 80px;
 
 }
 
 .anniversary-title {
     color: #0B0223;
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 600;
     text-transform: uppercase;
     margin-bottom: -40px;
@@ -426,7 +375,7 @@ body {
 }
 
 .anniversary-title-2 {
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 600;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     -webkit-background-clip: text;
@@ -449,7 +398,7 @@ body {
     height: 130px;
     position: relative;
     bottom: 130px;
-    right: -50px;
+    right: 60px;
 }
 
 .bottom-photo {
@@ -463,10 +412,10 @@ body {
 /* online game banner section design start */
 .online-game-container {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    margin-top: 50px;
+    margin: 50px auto 0;
+    max-width: 1400px;
+    min-height: 50px;
+
 }
 
 .online-game-img {
@@ -474,17 +423,13 @@ body {
 }
 
 .online-game-photo {
-    height: 450px;
-
-    margin-left: 140px;
+    width: 100%;
+    object-fit: cover;
 }
 
 .online-game-content {
     width: 50%;
-    margin-left: 150px;
-    margin-top: -150px;
-    margin-right: 100px;
-
+    text-align: right;
 }
 
 .online-game-title {
@@ -507,7 +452,6 @@ body {
 
 .online-game-text {
     color: #534C64;
-    text-align: left;
     font-size: 16px;
     font-weight: 400;
     margin-top: 70px;
@@ -519,7 +463,7 @@ body {
     height: 130px;
     position: relative;
     bottom: 130px;
-    left: 530px;
+    left: 400px;
 }
 
 .online-game-bottom-photo {
@@ -532,14 +476,14 @@ body {
 /* Game type part design start */
 
 .game-type-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 40px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     padding: 100px;
-    margin-left: -80px;
+    margin-left: -100px;
     width: 100%;
+
 }
 
 .game-type {
@@ -547,7 +491,7 @@ body {
     justify-content: space-around;
     align-items: center;
     height: 70px;
-    width: 220px;
+    width: 170px;
     border: 2px solid transparent;
 
 }
@@ -559,6 +503,7 @@ body {
     border-radius: 30px;
 
 }
+
 
 /* Game type part design end */
 
