@@ -482,7 +482,7 @@ body {
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     padding: 100px;
     margin-left: -100px;
-    width: 100%;
+
 
 }
 
@@ -589,7 +589,15 @@ body {
 
 @media screen and (max-width:576px) {
 
-    
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
     .nav-container {
         flex-direction: column;
         background: none;
@@ -599,6 +607,7 @@ body {
 
     .nav-menue {
         flex-direction: column;
+        margin-right: 20px;
     }
 
     .nav-menue>ul {
@@ -628,8 +637,7 @@ body {
         background-image: url(../images/Group\ 14.png);
         background-size: contain;
         background-repeat: no-repeat;
-        padding-left: 50px;
-
+        padding-left: 20px;
 
     }
 
@@ -647,6 +655,7 @@ body {
 
     .purpose-info {
         width: 100%;
+        height: 100%;
         text-align: center;
     }
 
@@ -662,13 +671,14 @@ body {
         width: 100%;
         text-align: center;
     }
-    .anniversary-text{
+
+    .anniversary-text {
         text-align: center;
     }
 
     .anniversary-img {
         width: 100%;
-      
+
     }
 
     .anniversary-photo {
@@ -685,72 +695,179 @@ body {
     }
 
 
-    .online-game-container{
+    .online-game-container {
         flex-direction: column-reverse;
     }
-    .online-game-content{
+
+    .online-game-content {
         width: 100%;
         text-align: center;
     }
-    .online-game-img{
+
+    .online-game-img {
         width: 100%;
     }
-    .online-game-photo{
-        width:80% ;
+
+    .online-game-photo {
+        width: 80%;
         margin-left: 30px;
     }
-    .online-game-bottom-photo{
+
+    .online-game-bottom-photo {
         width: 90px;
         height: 100px;
         position: relative;
         bottom: -80px;
         left: -100px;
-         
+
     }
-    .game-type-container{
-        grid-template-columns: repeat(3 ,1fr);
+
+    .game-type-container {
+        grid-template-columns: repeat(3, 1fr);
+
     }
-    .game-type{
+
+    .game-type {
         width: 130px;
         height: 50px;
-       
+
     }
-    .game-type img{
+
+    .game-type img {
         width: 30px;
         height: 30px;
     }
-    .footer-container{
+
+    .footer-container {
         height: 600px;
         margin: 0 auto;
     }
-    .footer-title{
+
+    .footer-title {
         padding-top: 50px;
     }
-    .our-story>ul{
+
+    .our-story>ul {
         display: grid;
-        grid-template-columns: repeat(3 ,1fr);
+        grid-template-columns: repeat(3, 1fr);
         column-gap: 20px;
-       
+
     }
-    .media-icon>ul{
+
+    .media-icon>ul {
         display: grid;
-        grid-template-columns:repeat(3 ,1fr) ;
+        grid-template-columns: repeat(3, 1fr);
         column-gap: 20px;
         margin-left: 20px;
-        
+
     }
-    .about{
+
+    .about {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
-       align-items: center;
-       margin-left: 20px;
-       margin-bottom: 50px;
-       
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        margin-left: 20px;
+        margin-bottom: 50px;
+
     }
-    .last-line{
+
+    .last-line {
         display: flex;
         flex-wrap: wrap;
         width: 195px;
         margin-left: 100PX;
     }
+}
+
+@media screen and (min-width:576px) and (max-width:980px) {
+
+    .nav-container {
+        width: 100%;
+    }
+
+    .nav-title-img {
+        width: 60px;
+        height: 30px;
+    }
+
+    .game-logo {
+        font-size: 32px;
+    }
+
+    .bg-menue {
+        width: 200px;
+    }
+
+    .banner-container {
+        flex-direction: column-reverse;
+    }
+
+    .banner-img {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    .banner-photo {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    .banner-info {
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .purpose-container {
+        flex-direction: column;
+    }
+
+    .purpose-img {
+        width: 100%;
+    }
+
+    .purpose-photo {
+        width: 100%;
+    }
+
+    .purpose-info {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+    .card-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        padding-left: 50px;
+    }
+    .anniversary-title{
+        font-size: 32px;
+    }
+    .bottom-photo{
+        height: 120px;
+        width: 100px;
+        position: relative;
+        bottom: -50px;
+    }
+    .online-game-title{
+        font-size: 32px;
+    }
+    .online-game-bottom-photo {
+        height: 120px;
+        width: 100px;
+        position: relative;
+        bottom: -50px;
+        left: -100px;
+    }
+    .game-type-container {
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        margin-left: -20px;
+
+    }
+
 }
