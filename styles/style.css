@@ -584,3 +584,173 @@ body {
 }
 
 /* footer design end */
+
+/* responsive for small device */
+
+@media screen and (max-width:576px) {
+
+    
+    .nav-container {
+        flex-direction: column;
+        background: none;
+        box-shadow: none;
+        margin-top: 100px;
+    }
+
+    .nav-menue {
+        flex-direction: column;
+    }
+
+    .nav-menue>ul {
+        flex-direction: column;
+        gap: 30px;
+        margin-right: 20px;
+    }
+
+    .banner-container {
+        flex-direction: column-reverse;
+
+    }
+
+    .banner-img {
+        width: 100%;
+
+    }
+
+    .banner-photo {
+        width: 100%;
+        margin: 100px auto;
+    }
+
+    .banner-info {
+        width: 100%;
+        margin: auto;
+        background-image: url(../images/Group\ 14.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding-left: 50px;
+
+
+    }
+
+    .purpose-container {
+        flex-direction: column;
+    }
+
+    .purpose-img {
+        width: 100%;
+    }
+
+    .purpose-photo {
+        width: 100%;
+    }
+
+    .purpose-info {
+        width: 100%;
+        text-align: center;
+    }
+
+    .card-container {
+        flex-direction: column;
+    }
+
+    .anniversary-container {
+        flex-direction: column;
+    }
+
+    .anniversary-content {
+        width: 100%;
+        text-align: center;
+    }
+    .anniversary-text{
+        text-align: center;
+    }
+
+    .anniversary-img {
+        width: 100%;
+      
+    }
+
+    .anniversary-photo {
+        width: 80%;
+        margin-left: 40px;
+    }
+
+    .bottom-photo {
+        width: 90px;
+        height: 100px;
+        position: relative;
+        bottom: -70px;
+        right: -60px;
+    }
+
+
+    .online-game-container{
+        flex-direction: column-reverse;
+    }
+    .online-game-content{
+        width: 100%;
+        text-align: center;
+    }
+    .online-game-img{
+        width: 100%;
+    }
+    .online-game-photo{
+        width:80% ;
+        margin-left: 30px;
+    }
+    .online-game-bottom-photo{
+        width: 90px;
+        height: 100px;
+        position: relative;
+        bottom: -80px;
+        left: -100px;
+         
+    }
+    .game-type-container{
+        grid-template-columns: repeat(3 ,1fr);
+    }
+    .game-type{
+        width: 130px;
+        height: 50px;
+       
+    }
+    .game-type img{
+        width: 30px;
+        height: 30px;
+    }
+    .footer-container{
+        height: 600px;
+        margin: 0 auto;
+    }
+    .footer-title{
+        padding-top: 50px;
+    }
+    .our-story>ul{
+        display: grid;
+        grid-template-columns: repeat(3 ,1fr);
+        column-gap: 20px;
+       
+    }
+    .media-icon>ul{
+        display: grid;
+        grid-template-columns:repeat(3 ,1fr) ;
+        column-gap: 20px;
+        margin-left: 20px;
+        
+    }
+    .about{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+       align-items: center;
+       margin-left: 20px;
+       margin-bottom: 50px;
+       
+    }
+    .last-line{
+        display: flex;
+        flex-wrap: wrap;
+        width: 195px;
+        margin-left: 100PX;
+    }
+}
