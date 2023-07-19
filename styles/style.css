@@ -3,7 +3,7 @@
 
 /* shared styles */
 
-* {
+body {
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -413,3 +413,72 @@
 }
 
 /* third anniversary banner design end */
+
+
+/* online game banner section design start */
+.online-game-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.online-game-img {
+    width: 50%;
+}
+
+.online-game-photo {
+    height: 450px;
+    
+    margin-left: 140px;
+}
+
+.online-game-content {
+    width: 50%;
+    margin-left: 150px;
+    margin-top: -150px;
+    margin-right: 100px;
+
+}
+
+.online-game-title {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: -40px;
+   
+}
+
+.online-game-title-2 {
+    font-size: 48px;
+    font-weight: 600;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: -10px;
+}
+
+.online-game-text {
+    color: #534C64;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 70px;
+}
+
+.online-game-bottom-img {
+    border-radius: 5px;
+    width: 250px;
+    height: 130px;
+    position: relative;
+    bottom: 130px;
+ left: 530px;
+}
+
+.online-game-bottom-photo {
+    height: 200px;
+    width: 180px;
+}
+/* online game banner section design end*/
