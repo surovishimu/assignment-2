@@ -70,7 +70,7 @@
     height: 56px;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
-    
+
 }
 
 .bg-menue {
@@ -186,7 +186,7 @@
     align-items: center;
     width: 100%;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-    
+
 }
 
 .purpose-img {
@@ -219,10 +219,11 @@
     font-size: 18px;
     font-weight: 400;
     max-width: 600px;
-    margin-left:100px ;
-    
+    margin-left: 100px;
+
 }
-.purpose-btn{
+
+.purpose-btn {
     border-radius: 48px;
     background: #FF42A5;
     border: none;
@@ -233,20 +234,111 @@
     cursor: pointer;
     position: relative;
     left: 420px;
-    
+
 }
 
-.moto{
-color: #534C64;
-text-align: right;
-font-size: 16px;
-position: relative;
-top:5px;
+.moto {
+    color: #534C64;
+    text-align: right;
+    font-size: 16px;
+    position: relative;
+    top: 5px;
 }
-.small-letter{
+
+.small-letter {
     font-weight: 800px;
     font-size: 20px;
 }
 
-
 /* end our purpose design */
+
+/* start funny vedio design */
+.vedio-container {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.vedio-title {
+    color: #0B0223;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.colored-title {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.vedio-txt {
+    color: #534C64;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: center;
+    gap: 20px;
+}
+
+.card-txt {
+    width: 240px;
+
+}
+
+.card-body {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.card {
+    width: 250px;
+    position: relative;
+}
+
+.card-img {
+    width: 250px;
+    
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: auto;
+}
+
+.card-content {
+    width: 99%;
+    height: 98%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+    border-radius: 8px;
+    border: 4px solid #F948B2; 
+}
+.card-content{
+    font-size: 20px;
+    color: white;
+}
+.card-content:hover {
+    opacity: 1;
+}
+
+/*end funny vedio design */
