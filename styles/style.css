@@ -184,7 +184,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
+   
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 
 }
@@ -219,7 +219,7 @@ body {
     font-size: 18px;
     font-weight: 400;
     max-width: 600px;
-    margin-left: 100px;
+    margin-left: 150px;
 
 }
 
@@ -233,7 +233,7 @@ body {
     margin-right: 10px;
     cursor: pointer;
     position: relative;
-    left: 420px;
+    left: 400px;
 
 }
 
@@ -359,7 +359,7 @@ body {
 
 .anniversary-photo {
     height: 450px;
-    margin-left: 140px;
+   margin-left: 200px;
 }
 
 .anniversary-content {
@@ -487,9 +487,8 @@ body {
 .game-type-container {
     display: flex;
     justify-content: center;
-    gap: 40px;
     flex-wrap: wrap;
-    width: 100%;
+    gap: 40px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     padding: 100px;
     margin-left: -80px;
@@ -497,18 +496,18 @@ body {
 
 .game-type {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    gap: 10px;
     height: 70px;
-    width: 200px;
+    width: 190px;
+   
     border: 2px solid transparent;
 
 }
 
 .game-type:hover {
-    border: 2px solid  #f88acc;
-    background-color:#ebe6e6;
+    border: 2px solid #f88acc;
+    background-color: #ebe6e6;
     cursor: pointer;
     border-radius: 30px;
 
@@ -517,68 +516,79 @@ body {
 /* Game type part design end */
 
 /* footer design start */
-.footer-container{
+.footer-container {
     background-color: #0B0223;
     color: white;
     height: 300px;
 }
-.footer-title{
+
+.footer-title {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
     gap: 10px;
-    
-}
-.our-story >ul li {
-    list-style: none;
-   
-}
-.our-story >ul li a{
-    text-decoration: none;
-    color: white;
-   
-}
-.our-story >ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-   
-}
-.our-story{
-    margin-bottom: 50px;
-}
-.media-icon >ul li {
-    list-style: none;
-   
-}
-.media-icon >ul li a{
-    text-decoration: none; 
-}
-.media-icon >ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-    
+
 }
 
-.about p a{
-    text-decoration: none;
-   color:  rgba(255, 255, 255, 0.60);
-   font-size: 16px;
+.our-story>ul li {
+    list-style: none;
+
 }
-.about  {
+
+.our-story>ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.our-story>ul {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 40px;
-    
+
 }
-.last-line{
+
+.our-story {
+    margin-bottom: 50px;
+}
+
+.media-icon>ul li {
+    list-style: none;
+
+}
+
+.media-icon>ul li a {
+    text-decoration: none;
+}
+
+.media-icon>ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.about p a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.last-line {
     text-align: center;
-    color:  rgba(255, 255, 255, 0.60);
+    color: rgba(255, 255, 255, 0.60);
     font-size: small;
 }
+
 /* footer design end */
