@@ -191,11 +191,12 @@ body {
 }
 
 .purpose-img {
-    width: 50%;
+    width: 400px;
+    margin-right: 200px;
 }
 
 .purpose-photo {
-    width: 550px;
+    width: 650px;
     margin-left: 100px;
 }
 
@@ -212,6 +213,7 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    
 }
 
 .purpose-txt {
@@ -233,8 +235,8 @@ body {
     padding: 15px 40px;
     margin-right: 10px;
     cursor: pointer;
-    position: absolute;
-    right: 90px;
+    margin-left: 530px;
+    width: 170px;
 
 }
 
@@ -242,9 +244,9 @@ body {
     color: #534C64;
     text-align: right;
     font-size: 16px;
-    position: absolute;
-    bottom: -440px;
-    right: 90px;
+   
+    
+    margin-right: 10px;
 }
 
 .small-letter {
@@ -494,6 +496,7 @@ body {
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     padding: 100px;
     margin-left: -80px;
+    width: 100%;
 }
 
 .game-type {
@@ -501,8 +504,7 @@ body {
     justify-content: space-around;
     align-items: center;
     height: 70px;
-    width: 190px;
-   
+    width: 220px;
     border: 2px solid transparent;
 
 }
